@@ -18,7 +18,7 @@
 
 .filter-group label {
   margin-bottom: 6px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .filter-group input,
@@ -28,6 +28,8 @@
   border-radius: 4px;
   background: var(--input-bg);
   color: var(--text-primary);
+  font-size: 13px;
+  line-height: 1.2;
 }
 
 /* Tablet layout */
@@ -63,6 +65,15 @@
   .filter-group:first-of-type,
   .clear-btn {
     grid-column: span 1;
+  }
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+  .filter-group input,
+  .filter-group select {
+    font-size: 16px;
   }
 }
 

@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="contact-page">
       <div className="contact-content">
-        <h2>Get in touch</h2>
+        <h2>GET IN TOUCH</h2>
         <p className="contact-description">
           Trysail transom furl Sea Legs scallywag Jack Ketch chandler
           mizzenmast reef sails skysail. Shiver me timbers loot bucko
