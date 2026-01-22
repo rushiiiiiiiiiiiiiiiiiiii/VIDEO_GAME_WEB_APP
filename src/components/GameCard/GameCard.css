@@ -1,0 +1,42 @@
+.game-card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.game-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.game-card-header h4 {
+  color: var(--text-primary);
+  font-family: var(--font-heading);
+  font-size: 16px;
+}
+
+.rating {
+  background: var(--accent-blue);
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.release-date {
+  font-size: 13px;
+  margin-bottom: 6px;
+  opacity: 0.85;
+}
+
+.summary {
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 90%;
+}
