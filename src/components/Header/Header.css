@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 24px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a.active {
+  color: var(--accent-blue);
+}
