@@ -1,11 +1,12 @@
-import React from 'react'
+import "./Contact.css";
 
-const Contact = () => {
+function Contact() {
   return (
-    <div>
-      Contact
+    <div className="page">
+      <h2>Get in touch</h2>
+      <p>This is a placeholder contact page.</p>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
