@@ -1,13 +1,13 @@
-## Video Games SPA – React Assignment ##
+# Video Games SPA – React Assignment
 
 ## Overview
 
 This project is a 2-page responsive Single Page Application (SPA) built using React as part of a technical assignment.
 
-The application fetches a list of video games from a public API, displays them based on the provided designs, and allows users to filter and sort the results.
-A secondary Contact page is included as specified in the brief.
+The application fetches a list of video games from a public API, displays them according to the provided designs, and allows users to filter and sort the results.
+A secondary Contact page is included, following the assignment brief.
 
-The main focus of this implementation is correctness, clean structure, responsiveness, and practical React usage, while keeping the solution simple and aligned with real-world frontend development practices.
+The focus of this implementation is correctness, clean structure, responsiveness, and practical React usage, while keeping the solution simple and aligned with real-world frontend development practices.
 
 
 ## Features
@@ -40,7 +40,7 @@ The main focus of this implementation is correctness, clean structure, responsiv
 * UI-only contact form
 * Layout adapted from the provided design
 * Fully responsive across viewports
-* No form submission logic (as stated in the assignment)
+* No form submission logic (as specified in the assignment)
 
 
 ## Tech Stack
@@ -51,20 +51,21 @@ The main focus of this implementation is correctness, clean structure, responsiv
 * CSS (Flexbox & Grid) for layout and responsiveness
 * Native Fetch API for API communication
 
-No external UI libraries or state management libraries were used to keep the solution lightweight and within the scope of the assignment.
+No external UI libraries or state management libraries were used, keeping the solution lightweight and within the scope of the assignment.
 
 
 ## Project Structure
 
+```
 src/
 ├── api/            # API interaction
 ├── components/     # Reusable UI components
-├── hooks/          # Custom hooks - business logic
+├── hooks/          # Custom hooks (business logic)
 ├── pages/          # Route-level components
 ├── styles/         # Global styles and CSS variables
 ├── App.jsx
 └── main.jsx
-
+```
 
 ### Key Design Decisions
 
@@ -99,11 +100,12 @@ GET https://admin.edulatte.in/api/games
 * Pagination and backend filtering were intentionally not implemented, as they were outside the scope of the assignment
 
 
-
 ## How to Run the Project
 
+```bash
 npm install
 npm run dev
+```
 
 The application will be available at:
 
@@ -116,6 +118,9 @@ http://localhost:5173
 * Pagination was not implemented, as the assignment required local filtering
 * The solution prioritizes clarity, maintainability, and correctness over unnecessary complexity
 
+## Deployed Link On Vercel
+
+https://video-game-web-app.vercel.app
 
 ## Future Improvements
 
@@ -128,5 +133,5 @@ Given more time or in a production environment, the following enhancements could
 
 ## Final Thoughts
 
-This project was developed to closely follow the assignment requirements while maintaining a clean and practical approach.
+This project was developed to closely follow the assignment requirements while maintaining a clean, readable, and practical approach.
 The goal was to demonstrate a solid understanding of React fundamentals, asynchronous data handling, component-based architecture, and responsive UI development.
