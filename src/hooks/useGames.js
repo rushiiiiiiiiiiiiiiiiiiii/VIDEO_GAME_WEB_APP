@@ -7,7 +7,6 @@ function useGames() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // filters state
   const [filters, setFilters] = useState({
     name: "",
     minScore: "",
@@ -42,7 +41,7 @@ function useGames() {
       );
     }
 
-    // filter by minimum score
+    // filter by score
     if (filters.minScore) {
       result = result.filter(
         (game) => Number(game.attributes.rating) >= filters.minScore

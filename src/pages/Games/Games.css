@@ -5,7 +5,6 @@
   padding: 40px;
 }
 
-/* Right content */
 .games-content h2 {
   color: var(--text-primary);
   font-family: var(--font-heading);
@@ -18,7 +17,6 @@
   margin-bottom: 16px;
 }
 
-/* IMPORTANT: stacked list, not grid */
 .games-grid {
   display: flex;
   flex-direction: column;
