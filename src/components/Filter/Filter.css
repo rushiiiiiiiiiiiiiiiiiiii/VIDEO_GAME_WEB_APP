@@ -32,7 +32,7 @@
   line-height: 1.2;
 }
 
-/* Tablet layout */
+/* Tablet */
 @media (max-width: 1024px) {
   .filters {
     display: grid;

@@ -6,9 +6,10 @@ function Contact() {
       <div className="contact-content">
         <h2>GET IN TOUCH</h2>
         <p className="contact-description">
-          Trysail transom furl Sea Legs scallywag Jack Ketch chandler
-          mizzenmast reef sails skysail. Shiver me timbers loot bucko
-          belaying pin Sea Legs boom gunwalls booty jury mast fore.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+          consequatur commodi magni consectetur earum voluptatem assumenda,
+          fugiat expedita, odio quidem quibusdam? Velit quae eveniet, iure hic
+          culpa numquam ipsa reprehenderit!
         </p>
 
         <div className="contact-card">

@@ -1,23 +1,50 @@
 .header {
+  padding: 40px 45px 1px;
+}
+
+.nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
+  gap: 32px;
 }
 
-.logo {
+.nav a {
   font-family: var(--font-heading);
-  color: var(--text-primary);
-  font-size: 24px;
-}
-
-nav a {
-  margin-left: 24px;
+  font-size: 18px;
   color: var(--text-secondary);
   text-decoration: none;
   font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
-nav a.active {
+.nav a.active {
   color: var(--accent-blue);
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 32px 45px 8px;
+  }
+
+  .nav {
+    gap: 24px;
+  }
+
+  .nav a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 50px 22px 15px;
+  }
+
+  .nav {
+    gap: 20px;
+  }
+
+  .nav a {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+  }
 }

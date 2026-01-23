@@ -4,13 +4,13 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
-      <h1 className="logo">Video Games</h1>
-
-      <nav>
+      <nav className="nav">
         <NavLink to="/" end>
-          Games
+          VIDEO GAMES
         </NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/contact">
+          CONTACT
+        </NavLink>
       </nav>
     </header>
   );
